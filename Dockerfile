@@ -1,4 +1,5 @@
 FROM tiangolo/meinheld-gunicorn:python3.7
+WORKDIR /app
 COPY . /app
 EXPOSE 80
 ENV MODULE_NAME candycrash
