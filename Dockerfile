@@ -5,6 +5,7 @@ EXPOSE 80
 ENV MODULE_NAME candycrash
 ENV WORKERS_PER_CORE 1
 RUN pip install -r requirements.txt
+RUN echo "test"
 
 # USE THIS COMMANDS TO RUN:
 # docker build -t myimage ./
